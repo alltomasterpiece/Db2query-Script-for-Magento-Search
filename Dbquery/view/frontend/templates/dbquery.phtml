@@ -1,0 +1,32 @@
+<div>
+<form class="" action="<?php echo $block->getBaseUrl().'dbquery/Result/Index'; ?>" id="year-make-model-search-form" method="post" enctype='multipart/form-data'>
+    <fieldset class="fieldset">
+        <legend class="legend"><span class="ymm-search-box-header">Please enter Year, Model, Make of the part you need.</span></legend><br> 
+        <div class = "input-holder" >       
+            <div class="field year">
+                <label class="label" for="year"><span>Year</span></label>
+                <div class="control">
+                    <input name="year" id="year" title="Year" value="" class="input-text" type="text" >
+                </div>
+            </div>
+            <div class="field make">
+                <label class="label" for="q"><span>Make</span></label>
+                <div class="control">
+                    <input name="q" id="q" title="q" value="" class="input-text" type="text" >
+                </div>
+            </div>
+            <div class="field model">
+                <label class="label" for="model"><span>Model</span></label>
+                <div class="control">
+                    <input name="model" id="model" title="Model" value="" class="input-text" type="text">
+                </div>
+            </div>
+            <div class="primary actions-controller">
+                <button type="submit" title="Find" class="action submit primary" >
+                    <span>Find</span>
+                </button>
+            </div>
+        </div>
+    </fieldset>
+</form>
+</div>

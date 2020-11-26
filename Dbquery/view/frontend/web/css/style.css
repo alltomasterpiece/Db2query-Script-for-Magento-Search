@@ -1,0 +1,21 @@
+.input-holder{
+    display : flex;
+    justify-content: space-around;
+    
+}
+.ymm-search-box-header {
+    margin-left:70px;
+}
+.year {
+    width: 20%;
+}
+.make {
+    width: 20%;
+}
+.model {
+    width: 20%;
+}
+.actions-controller {
+    width: 10%;
+    margin-top:20px;
+}

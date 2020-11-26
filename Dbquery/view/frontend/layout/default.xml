@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="Dblink_Dbquery::css/style.css"/>
+		<!-- <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js" src_type="url"/>  -->
+	</head>
+    <body>
+            <block class="Dblink\Dbquery\Block\Dbquery" name="dblink.dbquery.inlayout" after = "listingtabs.default"
+            template="Dblink_Dbquery::dbquery.phtml">
+            </block>
+    </body>
+</page>
+
